@@ -1,0 +1,11 @@
+.main {
+  background-color: black;
+  color: #fff;
+  width: 100%;
+  height: auto;
+  padding: 2.1rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 4rem;
+  row-gap: 4rem;
+}

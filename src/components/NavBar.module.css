@@ -1,0 +1,51 @@
+.nav {
+  width: 100%;
+  height: auto;
+  background-color: #4e4e4e;
+  color: #f9f9f9ba;
+  padding: 1.1rem 10rem;
+  border-radius: 1.5rem;
+}
+
+.flex__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand__logo {
+  display: flex;
+  gap: 2rem;
+  width: 8.9%;
+  height: auto;
+}
+
+.brand__name {
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.nav img {
+  width: 100%;
+  height: auto;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+}
+
+.nav ul li {
+  font-size: 3rem;
+  animation: ease-in 0.5s;
+}
+
+.nav ul li:hover {
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: underline red;
+  transform: scale(1.1, 1.1);
+}
